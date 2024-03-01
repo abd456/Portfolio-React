@@ -16,10 +16,13 @@ const About = () => {
             </div>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                I am passionate about developing 
+
+            
+                {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Fugiat, cumque ipsam assumenda architecto alias aperiam officiis. 
                 Hic provident ut in, harum iure quidem, culpa fugiat debitis modi
-                 necessitatibus accusantium sit?
+                 necessitatibus accusantium sit? */}
               </p>
             </div>
 

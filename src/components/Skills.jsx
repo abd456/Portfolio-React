@@ -10,6 +10,9 @@ import AWS from '../assets/aws.png'
 import GitHub from '../assets/github.png'
 import Tailwind from '../assets/tailwind.png'
 import Mongo from '../assets/mongo.png'
+import flutter from '../assets/flutter.png'
+import python from '../assets/python.png'
+import java from '../assets/java.png'
 
 const Skills = () => {
   return (
@@ -23,6 +26,23 @@ const Skills = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
 
+          
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
+            <p>React</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 py-3 mx-auto' src={flutter} alt="HTML icon" />
+            <p>Flutter</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
+            <p>GitHub</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
+            <p>TailWind CSS</p>
+          </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
             <p>HTML</p>
@@ -35,28 +55,29 @@ const Skills = () => {
             <img className='w-20 mx-auto' src={Javascript} alt="HTML icon" />
             <p>JavaScript</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-            <p>React</p>
-          </div>
+          
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
             <p>Node JS</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-            <p>GitHub</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
-            <p>TailWind CSS</p>
-          </div>
+          
+          
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
             <p>Mongo DB</p>
           </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='h-20 py-2 mx-auto' src={java} alt="HTML icon" />
+            <p>Java</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={python} alt="HTML icon" />
+            <p>Python</p>
+          </div>
           
           
+
+
         </div>
       </div>
     </div>
