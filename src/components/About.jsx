@@ -16,7 +16,11 @@ const About = () => {
             </div>
             <div>
               <p>
-                I am passionate about developing 
+                I am passionate about developing websites and mobile applications. 
+                currently pursuing a degree in computer science from university of westminster.
+                Actively seeking opportunities in web development or app development to apply 
+                skills and knowledge gained through education and personal projects.
+
 
             
                 {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. 

@@ -120,7 +120,7 @@ const Work = () => {
                 Portifolio Website <br></br> React-Tailwind
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://github.com/abd456/Portfolio-React">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>images</button>
                 </a>
                 <a href="/">
