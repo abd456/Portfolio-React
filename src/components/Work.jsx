@@ -18,45 +18,8 @@ const Work = () => {
 {/* container */}
         <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-          {/* grid item */}
-          <div style={{ backgroundImage: `url(${footballSite1})`,
-                        backgroundPosition: 'center', }}
-           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div  '>
-
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking0-wider'>
-                "Football Trivia" Website
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="https://abd456.github.io/web_dev_coursework_grp21.github.io/html/home.html">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Go To Site</button>
-                </a>
-                <a href="https://github.com/abd456/web_dev_coursework_grp21.github.io">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div style={{ backgroundImage: `url(${taskvault101})`,backgroundPosition: 'center', }}
-           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking0-wider'>
-                TaskVault App
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>images</button>
-                </a>
-                <a href="https://github.com/abd456/taskvault-app">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-           {/* grid item */}
+          {/* grid item */}  
+          
            <div style={{ backgroundImage: `url(${reactsite101})`,backgroundPosition: 'center', }}
            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
@@ -75,6 +38,86 @@ const Work = () => {
             </div>
           </div>
 
+        
+          
+          <div style={{ backgroundImage: `url(${merncrud102})`,backgroundPosition: 'center', }}
+           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking0-wider'>
+                MERN CRUD application
+              </span>
+              <div className='pt-8 text-center'>
+
+                {/* <a href="/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>images</button>
+                </a> */}
+
+                <a href="https://github.com/abd456/MERN-CRUD-2">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+           <div style={{ backgroundImage: `url(${portifolio101})`,backgroundPosition: 'center', }}
+           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking0-wider'>
+                Portifolio Website <br></br> React-Tailwind
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Go To Site</button>
+                </a>
+                <a href="https://github.com/abd456/Portfolio-React">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div style={{ backgroundImage: `url(${taskvault101})`,backgroundPosition: 'center', }}
+           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking0-wider'>
+                TaskVault App
+              </span>
+              <div className='pt-8 text-center'>
+                
+                {/* <a href="/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>images</button>
+                </a> */}
+
+                <a href="https://github.com/abd456/taskvault-app">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+           {/* grid item */}
+            <div style={{ backgroundImage: `url(${footballSite1})`,
+                        backgroundPosition: 'center', }}
+           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div  '>
+
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking0-wider'>
+                "Football Trivia" Website
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://abd456.github.io/web_dev_coursework_grp21.github.io/html/home.html">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Go To Site</button>
+                </a>
+                <a href="https://github.com/abd456/web_dev_coursework_grp21.github.io">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div style={{ backgroundImage: `url(${sneaker101})`,backgroundPosition: 'center', }}
            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
@@ -83,9 +126,11 @@ const Work = () => {
                 SneakerShop App
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+
+                {/* <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>images</button>
-                </a>
+                </a> */}
+
                 <a href="https://github.com/abd456/Flutter-Snaker-shop">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
@@ -94,42 +139,9 @@ const Work = () => {
           </div>
 
            {/* grid item */}
-           <div style={{ backgroundImage: `url(${merncrud102})`,backgroundPosition: 'center', }}
-           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+          
 
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking0-wider'>
-                MERN CRUD application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>images</button>
-                </a>
-                <a href="https://github.com/abd456/MERN-CRUD-2">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div style={{ backgroundImage: `url(${portifolio101})`,backgroundPosition: 'center', }}
-           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking0-wider'>
-                Portifolio Website <br></br> React-Tailwind
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="https://github.com/abd456/Portfolio-React">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>images</button>
-                </a>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
+         
         </div>
 
         
@@ -139,3 +151,7 @@ const Work = () => {
 }
 
 export default Work
+
+
+
+
